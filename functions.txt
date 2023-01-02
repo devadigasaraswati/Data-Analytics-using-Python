@@ -1,0 +1,95 @@
+def print_greeting():
+	print “Hello!”
+	print “How are you today?”
+
+print_greeting() #Calling the function
+
+
+def hello_func(name,somelist):
+	print “Hello,”,name,”!\n”
+	name = “Caitlin”
+	somelist[0]=3
+	return 1, 2
+myname=“Ben”
+mylist=[1,2]
+a,b= hello_func(myname,mylist)
+print myname,mylist
+print a,b
+
+
+def myfun():
+	print("Hello everyone") 
+	print("this is my own function")
+
+print("before calling the function") 
+myfun()	#fuction call 
+print("after calling the function")
+
+
+
+def addition(a,b):	#function definition 
+	sum=a + b
+	return sum
+
+x=addition(3, 3)	#function call 
+print("addition of 2 numbers:",x)
+
+
+
+def display(num1,num2):
+            print(num1,num2)
+    
+display(100,200)
+
+
+
+def display(num1,num2):
+    print(num1,num2)
+    
+display(num2=10, num1=20)
+
+
+
+def display(name, course="MCA"):
+    print(name)
+    print(course)    
+
+
+
+def say(message, times=1):
+	print(message * times)
+say('Hello')
+say('World', 5)
+
+
+
+# Python code to demonstrate
+# call by value
+ 
+ 
+string = "Geeks"
+ 
+ 
+def test(string):
+     
+    string = "GeeksforGeeks"
+    print("Inside Function:", string)
+     
+# Driver's code
+test(string)
+print("Outside Function:", string)
+
+
+# Python code to demonstrate
+# call by reference
+ 
+ 
+def add_more(list):
+    list.append(50)
+    print("Inside Function", list)
+ 
+# Driver's code
+mylist = [10,20,30,40]
+ 
+add_more(mylist)
+print("Outside Function:", mylist)
