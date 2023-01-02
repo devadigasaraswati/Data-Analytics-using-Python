@@ -1,0 +1,15 @@
+s={10,20,30,40}
+s={10,20,2.3,"abc"}
+s={10,20,30,20,10,20,10}
+s[1]  //We cannot access element using index
+s={10,20}
+s.add(30)
+print(s)
+s.discard(20)
+print(s)
+
+
+
+
+
+

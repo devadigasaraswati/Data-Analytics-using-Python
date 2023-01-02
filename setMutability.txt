@@ -1,0 +1,10 @@
+s={10,20,30}
+print(s)
+s.add(40) print(s)
+{40,10,20,30} // Set is not an ordered collection
+s.discard(20)
+s={10,(30,40)} print(s)
+S={10,[30,40]} //err is not allowed to store mutable objects
+
+//It can have mutable element with in a set
+//does not support immutble element 

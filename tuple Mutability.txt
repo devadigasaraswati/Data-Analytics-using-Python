@@ -1,0 +1,10 @@
+t=(10,20,30)
+t=(10,20,[30,40]) //list with tuple, now we can modify list
+t[2].append(50)
+print(t)
+t[2].remove(30)
+print(t)
+
+li=[10,20,30,40]
+t=tuple(li)
+print(t)//creating tuple using constructor
